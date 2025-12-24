@@ -65,23 +65,23 @@
 Установите и запустите memcached.
 
 Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
-![Availabity](screenshots/memcached.png)
+Установка через docker.
+![memcached](screenshots/memcached.png)
 
 ### Задание 3 Удаление по TTL в Memcached
 Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
-![Availabity](screenshots/LatestData.png)
-![Availabity](screenshots/groups.png)
+![memcached-task2](screenshots/memcached-task2.png)
+![script](cache.sh)
 
 ### Задание 4 Запись данных в Redis
 Запишите в Redis несколько ключей с любыми именами и значениями.
 
 Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/redis.png)
 
 ### Задание 5*. Работа с числами
 Запишите в Redis ключ key5 со значением типа "int" равным числу 5. Увеличьте его на 5, чтобы в итоге в значении лежало число 10.
 
 Приведите скриншот, где будут проделаны все операции и будет видно, что значение key5 стало равно 10.
-![Map](screenshots/MapEdit.png)
-![Map](screenshots/Map-lost-comm.png)
+![Map](screenshots/atomar-redis.png)
 
